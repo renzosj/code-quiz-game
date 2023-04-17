@@ -18,7 +18,7 @@ var playerData = {
 
 //values
 var quizStatusCount = 0;
-var secondsLeft = 10;
+var secondsLeft = 30;
 var numOfAnswers = 4;
 var playerScore = 0;
 var timerRanOut = false;
