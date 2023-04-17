@@ -5,3 +5,8 @@ ol, ul {
 .hide {
   display: none;
 }
+
+main {
+  margin-left: 8rem;
+  padding: 10px;
+}
