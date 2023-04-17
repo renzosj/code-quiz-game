@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Code Quiz</title>
+</head>
+<body>
+    <main>
+        <!--Put 'Start Quiz Page Here'-->
+        <h1 class="title">Code Quiz</h1>
+        <button id="startQuiz">Start Quiz</button>
+        <ul class="answerList">
+            <li class="answer"></li>
+            <li class="answer"></li>
+            <li class="answer"></li>
+            <li class="answer"></li>
+        </ul>
+        <h2 id="feedback"></h2>
+        <h3 id="timer"></h3>
+        <h3 id="playerScore"></h3>
+        
+        <input id="initials"
+                class="hide"
+                type="text" 
+                placeholder="enter initials here..."
+                minlength="3" 
+                maxlength="8" 
+        >
+        <button id="enterInits" class="hide">Enter</button>
+        
+        <h3 id="highScores" class="hide">Player Highscores</h3>
+          
+        <button id="clearHighScores" class="hide">Clear Highscores</button>
+    </main>
+<script src="assets/js/script.js"></script>   
+</body>
+</html>
